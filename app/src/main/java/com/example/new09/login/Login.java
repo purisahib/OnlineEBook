@@ -16,7 +16,7 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         //setContentView(activity_login);
-        setContentView(R.layout.activity_login);
+        //setContentView(R.layout.activity_login);
         Intent intent=new Intent(Login.this, MainStart.class);
         startActivity(intent);
     }
