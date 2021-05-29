@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PS Books</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">About/Help</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_school">School Books</string>
+    <string name="menu_colledge">College Books</string>
+    <string name="menu_download">Download Files</string>
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="downloadStarted">Download Start</string>
+    <string name="downloadCompleted">Download Completed</string>
+    <string name="downloadFailed">Download Failed</string>
+    <string name="downloadAgain">Download Again</string>
+    <string name="menu_syballs">Syballs</string>
+
+</resources>

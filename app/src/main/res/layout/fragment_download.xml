@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/body"
+    tools:context=".ui.download.DownloadFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/schoolBtn"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="School files"
+                android:textColor="#046783"
+                android:textSize="30sp"
+                android:background="#fff"/>
+            <Button
+                android:id="@+id/colledgeBtn"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Colledge files"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:background="#046783"/>
+            <Button
+                android:id="@+id/allBtn"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="All files"
+                android:textColor="#046783"
+                android:textSize="30sp"
+                android:background="#fff"/>
+            <Button
+                android:id="@+id/openBtn"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Open us"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:background="#046783"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
